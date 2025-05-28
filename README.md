@@ -1,5 +1,3 @@
-# Security-Operations-Center
-
 <h1>Security Operations Center (SOC) and Honeynet in Azure </h1>
 
  ### [YouTube Demonstration](https://www.youtube.com/watch?v=g5JL2RIbThM&t=202s)
