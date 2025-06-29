@@ -25,34 +25,35 @@ This project demonstrates the process of setting up a Security Operations Center
 
 <p align="center">
 Project Overview: <br/>
-<img src="https://i.imgur.com/n9fZpk3.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
+<img src="https://i.imgur.com/dmhtkam.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
 <br />
 <br />
-Build Server//Install Windos Server OS:  <br/>
-<img src="https://i.imgur.com/8cFVmdl.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
-<img src="https://i.imgur.com/1YkPB9m.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
+Create Resource Group, Virtual Network, and Virtual Machine in Azure:  <br/>
+<img src="https://i.imgur.com/28Efhy1.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
 <br />
 <br />
-Install Active Directory Services: <br/>
-<img src="https://i.imgur.com/VRwzOBz.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
-<img src="https://i.imgur.com/fE684WZ.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
+Create Custome Inbound Traffic Rule, allowing any type of connection to the Virtual Machine: <br/>
+<img src="https://i.imgur.com/rOIj1UY.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
 <br />
 <br />
-Configure Network Interface Card:  <br/>
-<img src="https://i.imgur.com/JR91KZW.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
+Turn off firewall on Virtual Machine, ping from local device to confirm device is "open" to the internet:  <br/>
+<img src="https://i.imgur.com/Z5kVEFU.jpeg" height="80%" width="80%" alt="Active Directory Home Lab"/>
+<img src="https://i.imgur.com/zImXKgD.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
 <br />
 <br />
-Configure Remote Access:  <br/>
-<img src="https://i.imgur.com/6IVhy6o.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
+Fail sign in to device several times, review local logs on virtual machine:  <br/>
+<img src="https://i.imgur.com/hm0UUoF.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
+<img src="https://i.imgur.com/1dp7RoB.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
 <br />
 <br />
-Install DHCP and add Scope displayed in project overview:  <br/>
-<img src="https://i.imgur.com/9s5oybd.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
+Isolate failed log in attempts:  <br/>
+<img src="https://i.imgur.com/IFK5VYb.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
+<img src="https://i.imgur.com/iWMTHJz.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
 <br />
 <br />
-Run Powershell script to create 1,000 users to my Active Directory Lab\\Create Admin organizational unit and add my account:  <br/>
-<img src="https://i.imgur.com/DIpbKPO.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
-<img src="https://i.imgur.com/IaVjuwM.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
+Create a Log analytics workspace and connect to a Microsoft Sentinel:  <br/>
+<img src="https://i.imgur.com/RyJZZ6K.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
+<img src="https://i.imgur.com/qjReJLN.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
 <br />
 <br />
 Create Windows 11 VM and Confirm Client Receiving Address via DHCP:  <br/>
