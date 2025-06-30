@@ -16,10 +16,10 @@ This project demonstrates the process of setting up a Security Operations Center
 
 <h2>Technologies Used </h2>
 
-- <b>Microsoft Azure</b> (21H2)
-- <b>Microsoft Sentinel</b> (21H2)
-- <b>Network Security Groups (NSGs)</b> (21H2)
-- <b>KQL Queries</b> (21H2)
+- <b>Microsoft Azure</b> 
+- <b>Microsoft Sentinel</b> 
+- <b>Network Security Groups (NSGs)</b> 
+- <b>KQL Queries</b> 
 
 <h2>Program walk-through:</h2>
 
