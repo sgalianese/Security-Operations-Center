@@ -62,9 +62,24 @@ Connect AzureMonitorWindowsAgent Extension to my Virtual machine, confirm securt
 
 <br />
 <br />
-Create a Log analytics workspace and connect to a Microsoft Sentinel:  <br/>
-<img src="https://i.imgur.com/RyJZZ6K.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
-<img src="https://i.imgur.com/qjReJLN.png" height="80%" width="80%" alt="Active Directory Home Lab"/> 
+We are going to import a spreadsheet (as a “Sentinel Watchlist”) which contains geographic information for each block of IP addresses:  <br/>
+Observe the logs now have geographic information, so you can see where the attacks are coming from
+<br />
+let GeoIPDB_FULL = _GetWatchlist("geoip");
+let WindowsEvents = SecurityEvent
+    | where IpAddress == <attacker IP address>
+    | where EventID == 4625
+    | order by TimeGenerated desc
+    | evaluate ipv4_lookup(GeoIPDB_FULL, IpAddress, network);
+WindowsEvents
+<br />
+<br />
+Run JSON script to create attack map using data from honeypot:
+<img src="https://i.imgur.com/9LRcCov.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
+<img src="https://i.imgur.com/XvB1PtR.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
+
+
+
 </p>
 
 <!--
