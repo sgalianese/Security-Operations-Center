@@ -56,8 +56,15 @@ Create a Log analytics workspace and connect to a Microsoft Sentinel:  <br/>
 <img src="https://i.imgur.com/qjReJLN.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
 <br />
 <br />
-Create Windows 11 VM and Confirm Client Receiving Address via DHCP:  <br/>
-<img src="https://i.imgur.com/9QcNqBr.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
+Connect AzureMonitorWindowsAgent Extension to my Virtual machine, confirm securtiy events:  <br/>
+<img src="https://i.imgur.com/tBj8q9u.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
+<img src="https://i.imgur.com/MSMK25m.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
+
+<br />
+<br />
+Create a Log analytics workspace and connect to a Microsoft Sentinel:  <br/>
+<img src="https://i.imgur.com/RyJZZ6K.png" height="80%" width="80%" alt="Active Directory Home Lab"/>
+<img src="https://i.imgur.com/qjReJLN.png" height="80%" width="80%" alt="Active Directory Home Lab"/> 
 </p>
 
 <!--
